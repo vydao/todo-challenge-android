@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ChallengeAndroid</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="txt_create_a_challenge">Create a Challenge</string>
+    <string name="txt_challenge_name">Challenge name</string>
+    <string name="txt_challenge_description">Challenge\'s Description</string>
+    <string name="txt_starts_on">Starts On </string>
 </resources>
