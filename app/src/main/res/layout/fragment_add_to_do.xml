@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ui.CreateChallengeFragment">
+
+    <TextView
+        android:textSize="18sp"
+        android:text="@string/txt_create_todo"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:background="@drawable/bg_edt"
+            android:hint="@string/txt_challenge_name"
+            android:layout_width="match_parent"
+            android:layout_weight="1.2"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0"
+            android:textAlignment="textStart"
+            android:background="@drawable/bg_edt"
+            android:hint="@string/txt_daily"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:layout_weight="0"
+            android:layout_margin="5dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/bg_edt"
+            android:hint="@string/txt_point"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+
+
+        <Button
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:background="@drawable/bg_edt"
+            android:hint="@string/txt_add"
+            android:layout_width="wrap_content"
+            android:layout_weight="0"
+            android:layout_height="50dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
