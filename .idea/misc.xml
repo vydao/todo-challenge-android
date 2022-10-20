@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/todo-android/app/src/main/res/drawable/bg_edt.xml" value="0.129" />
         <entry key="..\:/todo-android/app/src/main/res/layout/activity_main.xml" value="0.12092391304347826" />
+        <entry key="..\:/todo-android/app/src/main/res/layout/fragment_add_to_do.xml" value="0.25" />
         <entry key="..\:/todo-android/app/src/main/res/layout/fragment_create_challenge.xml" value="0.25" />
       </map>
     </option>

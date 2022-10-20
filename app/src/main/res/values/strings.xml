@@ -6,5 +6,11 @@
     <string name="txt_create_a_challenge">Create a Challenge</string>
     <string name="txt_challenge_name">Challenge name</string>
     <string name="txt_challenge_description">Challenge\'s Description</string>
-    <string name="txt_starts_on">Starts On </string>
+    <string name="txt_starts_on">Starts On</string>
+    <string name="txt_daily">Daily</string>
+    <string name="txt_weekly">Daily</string>
+    <string name="txt_monthly">Monthly</string>
+    <string name="txt_point">Point</string>
+    <string name="txt_add">Add</string>
+    <string name="txt_create_todo">Create todo</string>
 </resources>
